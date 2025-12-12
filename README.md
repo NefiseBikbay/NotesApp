@@ -1,6 +1,8 @@
 # Notes App
+[**Local Preview**](https://pinknotesapp.netlify.app)
 
 A simple and fast note-taking application. You can add, delete, color-tag, and filter notes. All notes are stored in **localStorage**, so they remain even after closing or refreshing the page.
+
 
 ## Technologies Used
 
@@ -26,6 +28,7 @@ A simple and fast note-taking application. You can add, delete, color-tag, and f
 5. Use the search bar to filter notes.
 6. Notes persist automatically thanks to localStorage.
 
+```
 ## Project Structure
 src/
  ├─ components/
@@ -35,13 +38,13 @@ src/
  ├─ App.jsx
  ├─ main.jsx
  ├─ styles.css
-
+```
 
 ## Installation
-
-**To run the project locally:**
-- git clone <repo-url>
-- cd NoteApp
-- npm install
-- npm run dev
-
+**To run the project locally**
+```
+git clone https://github.com/NefiseBikbay/NotesApp
+cd NoteApp
+npm install
+npm run dev
+```
