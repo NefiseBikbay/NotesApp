@@ -1,0 +1,184 @@
+/* --- Global  --- */
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right, #fdfcfb, #e2d1ce);
+  padding: 40px;
+  color: #333;
+  margin: 0;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1e2023;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+/* --- Note Input --- */
+.note-input {
+  background: rgba(230, 223, 223, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 40px auto;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+.note-textarea {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  border: none;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s;
+  box-sizing: border-box;
+  background: rgba(230, 223, 223, 0.7);
+  caret-color: #1e2023;
+}
+
+.note-textarea:focus {
+  border-color: #1e2023;
+  box-shadow: 0 0 0 3px rgba(30, 32, 35, 0.1);
+}
+
+/* --- Color & Button --- */
+.input-row {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 3px solid transparent;
+}
+
+.color-box.selected {
+  border-color: #333;
+  transform: scale(1.1);
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #333;
+}
+
+/* --- Button --- */
+.addButton {
+  background: linear-gradient(to right, #fdfcfb, #e2d1ce),
+    linear-gradient(to right, #e2d1ce, #fdfcfb);
+  color: #1e2023;
+  background-size: 200% 100%;
+  background-position: 0% 0%;
+  border: none;
+  box-shadow: 0 0 6px rgba(77, 76, 81, 0.1);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-position 0.6s ease;
+  margin-left: auto;
+}
+
+.addButton:hover {
+  background-position: 100% 0%;
+}
+
+/* --- Filter --- */
+.filter-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 18px;
+  margin: 0 auto 30px auto;
+  display: block;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s;
+  box-sizing: border-box;
+  background: rgba(230, 223, 223, 0.6);
+}
+
+.filter-input:focus {
+  box-shadow: 0 0 0 3px rgba(30, 32, 35, 0.1);
+  caret-color: #1e2023;
+}
+
+/* --- Note Groups --- */
+.note-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.note-group {
+  background: rgba(255, 255, 255, 0.715);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.group-title {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-group-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* --- Note Item --- */
+.note-item {
+  padding: 15px 18px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.25s ease;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button {
+  margin-left: 50px;
+  color: #1e2023;
+  font-size: larger;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
