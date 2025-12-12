@@ -40,8 +40,8 @@ src/
 ## Installation
 
 **To run the project locally:**
-git clone <repo-url>
-cd NoteApp
-npm install
-npm run dev
+- git clone <repo-url>
+- cd NoteApp
+- npm install
+- npm run dev
 
