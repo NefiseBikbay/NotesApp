@@ -28,8 +28,8 @@ A simple and fast note-taking application. You can add, delete, color-tag, and f
 5. Use the search bar to filter notes.
 6. Notes persist automatically thanks to localStorage.
 
-```
 ## Project Structure
+```
 src/
  ├─ components/
  │   ├─ NoteInput.jsx
