@@ -3,6 +3,8 @@
 
 A simple and fast note-taking application. You can add, delete, color-tag, and filter notes. All notes are stored in **localStorage**, so they remain even after closing or refreshing the page.
 
+<img width="1467" height="805" alt="Ekran Resmi 2025-12-13 11 35 46" src="https://github.com/user-attachments/assets/7c315c1c-9401-48c3-8a7c-71da4acd83f8" />
+
 
 ## Technologies Used
 
